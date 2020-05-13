@@ -26,5 +26,6 @@ class ArticlesController < ApplicationController
   end 
   
   def update
-  end 
+    raise params.inspect
+  end
 end
